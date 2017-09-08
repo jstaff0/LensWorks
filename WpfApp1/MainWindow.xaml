@@ -8,22 +8,22 @@
         mc:Ignorable="d"
         Title="Editor" Height="350" Width="525">
     <Grid Background="#FF959595">
-        <Viewbox x:Name="EditorViewbox" HorizontalAlignment="Left" Height="200" Margin="10,10,0,0" VerticalAlignment="Top" Width="400" OpacityMask="#FF4C7DE4" Panel.ZIndex="5">
+        <Viewbox x:Name="EditorViewbox" HorizontalAlignment="Left" Margin="10,10,110,0" VerticalAlignment="Top" OpacityMask="#FF4C7DE4" Panel.ZIndex="5">
             <Canvas x:Name="EditorCanvas" Height="100" Width="200" Background="#FFC1CCFF"/>
         </Viewbox>
-        <Slider x:Name="Radius1Slider" HorizontalAlignment="Left" Margin="415,29,0,0" VerticalAlignment="Top" Width="92" Height="23" Minimum="1" Maximum="1000" LargeChange="10" SmallChange="1" Value="100" ValueChanged="Radius1Slider_ValueChanged"/>
-        <Slider x:Name="Radius2Slider" HorizontalAlignment="Left" Margin="415,76,0,0" VerticalAlignment="Top" Width="92" Height="23" LargeChange="10" Maximum="1000" Minimum="1" SmallChange="1" Value="100" ValueChanged="Radius2Slider_ValueChanged"/>
-        <Slider x:Name="ThicknessSlider" HorizontalAlignment="Left" Margin="415,125,0,0" VerticalAlignment="Top" Width="92" Height="23" Minimum="1" Maximum="100" SmallChange="1" LargeChange="5" Value="10" ValueChanged="ThicknessSlider_ValueChanged"/>
-        <Slider x:Name="DiameterSlider" HorizontalAlignment="Left" Margin="415,172,0,0" VerticalAlignment="Top" Width="92" Height="23" Maximum="100" Minimum="5" SmallChange="1" LargeChange="5" Value="25" ValueChanged="DiameterSlider_ValueChanged"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="423,222,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Label Content="Radius 1:" HorizontalAlignment="Left" Margin="420,10,0,0" VerticalAlignment="Top" FontSize="8"/>
-        <Label Content="Radius 2" HorizontalAlignment="Left" Margin="420,57,0,0" VerticalAlignment="Top" FontSize="8"/>
-        <Label Content="Thickness" HorizontalAlignment="Left" Margin="420,106,0,0" VerticalAlignment="Top" FontSize="8"/>
-        <Label Content="Diameter" HorizontalAlignment="Left" Margin="420,153,0,0" VerticalAlignment="Top" FontSize="8"/>
-        <Label x:Name="Radius1Label" Content="000" HorizontalAlignment="Left" Margin="460,10,0,0" VerticalAlignment="Top" FontSize="8"/>
-        <Label x:Name="Radius2Label" Content="000" HorizontalAlignment="Left" Margin="460,57,0,0" VerticalAlignment="Top" FontSize="8"/>
-        <Label x:Name="ThicknessLabel" Content="000" HorizontalAlignment="Left" Margin="460,106,0,0" VerticalAlignment="Top" FontSize="8"/>
-        <Label x:Name="DiameterLabel" Content="000" HorizontalAlignment="Left" Margin="460,153,0,0" VerticalAlignment="Top" FontSize="8"/>
+        <Slider x:Name="Radius1Slider" HorizontalAlignment="Right" Margin="0,29,10,0" VerticalAlignment="Top" Width="92" Height="23" Minimum="1" Maximum="1000" LargeChange="10" SmallChange="1" Value="100" ValueChanged="Radius1Slider_ValueChanged"/>
+        <Slider x:Name="Radius2Slider" HorizontalAlignment="Right" Margin="415,76,10,0" VerticalAlignment="Top" Width="92" Height="23" LargeChange="10" Maximum="1000" Minimum="1" SmallChange="1" Value="100" ValueChanged="Radius2Slider_ValueChanged"/>
+        <Slider x:Name="ThicknessSlider" HorizontalAlignment="Right" Margin="415,125,10,0" VerticalAlignment="Top" Width="92" Height="23" Minimum="1" Maximum="100" SmallChange="1" LargeChange="5" Value="10" ValueChanged="ThicknessSlider_ValueChanged"/>
+        <Slider x:Name="DiameterSlider" HorizontalAlignment="Right" Margin="415,172,10,0" VerticalAlignment="Top" Width="92" Height="23" Maximum="100" Minimum="5" SmallChange="1" LargeChange="5" Value="25" ValueChanged="DiameterSlider_ValueChanged"/>
+        <Button Content="Button" HorizontalAlignment="Right" Margin="423,222,20,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Radius 1:" HorizontalAlignment="Right" Margin="0,10,45,0" VerticalAlignment="Top" FontSize="8"/>
+        <Label Content="Radius 2" HorizontalAlignment="Right" Margin="0,57,45,0" VerticalAlignment="Top" FontSize="8"/>
+        <Label Content="Thickness" HorizontalAlignment="Right" Margin="0,106,45,0" VerticalAlignment="Top" FontSize="8"/>
+        <Label Content="Diameter" HorizontalAlignment="Right" Margin="0,153,45,0" VerticalAlignment="Top" FontSize="8"/>
+        <Label x:Name="Radius1Label" Content="000" HorizontalAlignment="Right" Margin="460,10,25,0" VerticalAlignment="Top" FontSize="8"/>
+        <Label x:Name="Radius2Label" Content="000" HorizontalAlignment="Right" Margin="460,57,25,0" VerticalAlignment="Top" FontSize="8"/>
+        <Label x:Name="ThicknessLabel" Content="000" HorizontalAlignment="Right" Margin="460,106,25,0" VerticalAlignment="Top" FontSize="8"/>
+        <Label x:Name="DiameterLabel" Content="000" HorizontalAlignment="Right" Margin="460,153,25,0" VerticalAlignment="Top" FontSize="8"/>
 
     </Grid>
 </Window>

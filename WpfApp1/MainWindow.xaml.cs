@@ -20,6 +20,7 @@ namespace WpfApp1
     {
         Lens lens1;
 
+        
         public MainWindow()
         {
             InitializeComponent();
